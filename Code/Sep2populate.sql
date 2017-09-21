@@ -1,0 +1,116 @@
+INSERT INTO inventory.supplier VALUES('Reitan', 55889966, 'Reitan@ro.dk', 'Øtergade 88', '8700');
+
+INSERT INTO inventory.category VALUES('Fruits');
+INSERT INTO inventory.category VALUES('Vegetables');
+INSERT INTO inventory.category VALUES('Personal care');
+INSERT INTO inventory.category VALUES('Juices');
+INSERT INTO inventory.category VALUES('Snaks');
+
+INSERT INTO inventory.product VALUES(698204, 'Lemon', 'Fruits');
+INSERT INTO inventory.productsupplier VALUES(698204, 'Reitan');
+INSERT INTO inventory.product VALUES(412563, 'Apple', 'Fruits');
+INSERT INTO inventory.productsupplier VALUES(412563, 'Reitan');
+INSERT INTO inventory.product VALUES(965874, 'Banana', 'Fruits');
+INSERT INTO inventory.productsupplier VALUES(965874, 'Reitan');
+INSERT INTO inventory.product VALUES(759351, 'Apricot', 'Fruits');
+INSERT INTO inventory.productsupplier VALUES(759351, 'Reitan');
+INSERT INTO inventory.product VALUES(456782, 'Grape', 'Fruits');
+INSERT INTO inventory.productsupplier VALUES(456782, 'Reitan');
+INSERT INTO inventory.product VALUES(668654, 'Avocado', 'Fruits');
+INSERT INTO inventory.productsupplier VALUES(668654, 'Reitan');
+INSERT INTO inventory.product VALUES(753951, 'Cherry', 'Fruits');
+INSERT INTO inventory.productsupplier VALUES(753951, 'Reitan');
+INSERT INTO inventory.product VALUES(700844, 'Clementine', 'Fruits');
+INSERT INTO inventory.productsupplier VALUES(700844, 'Reitan');
+INSERT INTO inventory.pallet VALUES(5632985, 698204, 25, '2016/12/30 10:30', 40, 100 ,160 , 1, 1, 1);
+INSERT INTO inventory.pallet VALUES(8556254, 412563, 25, '2016/12/30 10:30', 60, 120 ,180 , 2, 1, 1);
+INSERT INTO inventory.pallet VALUES(6625333, 965874, 25, '2016/12/30 10:30', 40, 120 ,150 , 3, 1, 1);
+INSERT INTO inventory.pallet VALUES(6325584, 759351, 25, '2016/12/30 10:30', 80, 170 ,240 , 4, 1, 1);
+INSERT INTO inventory.pallet VALUES(7213546, 456782, 25, '2016/12/30 10:30', 20, 180 ,370 , 5, 1, 1);
+INSERT INTO inventory.pallet VALUES(3021554, 668654, 25, '2016/12/30 10:30', 40, 320 ,490 , 6, 1, 1);
+INSERT INTO inventory.pallet VALUES(2333521, 753951, 25, '2016/12/30 10:30', 10, 270 ,350 , 7, 1, 1);
+INSERT INTO inventory.pallet VALUES(9665853, 700844, 25, '2016/12/30 10:30', 60, 150 ,210 , 8, 1, 1);
+INSERT INTO inventory.supplier VALUES('Dansk Super Market', 55668899, 'Dansk@dano.dk', 'Herningvej 99', 8000);
+INSERT INTO inventory.product VALUES(225468, 'Potato chips', 'Snaks');
+INSERT INTO inventory.productsupplier  VALUES(225468, 'Dansk Super Market');
+INSERT INTO inventory.product VALUES(458763, 'Pop corn', 'Snaks');
+INSERT INTO inventory.productsupplier  VALUES(458763, 'Dansk Super Market');
+INSERT INTO inventory.product VALUES(863008, 'Nachos', 'Snaks');
+INSERT INTO inventory.productsupplier  VALUES(863008, 'Dansk Super Market');
+INSERT INTO inventory.product VALUES(713328, 'Crckers', 'Snaks');
+INSERT INTO inventory.productsupplier  VALUES(713328, 'Dansk Super Market');
+INSERT INTO inventory.product VALUES(532140, 'Peanuts', 'Snaks');
+INSERT INTO inventory.productsupplier  VALUES(532140, 'Dansk Super Market');
+INSERT INTO inventory.pallet VALUES(3554221, 225468, 20, '2017/06/12 12:30', 20, 250 ,350 , 1, 2, 1);
+INSERT INTO inventory.pallet VALUES(6988755, 458763, 20, '2017/06/12 12:30', 20, 190 ,350 , 2, 2, 1);
+INSERT INTO inventory.pallet VALUES(5221352, 863008, 20, '2017/06/12 12:30', 25, 170 ,270 , 3, 2, 1);
+INSERT INTO inventory.pallet VALUES(6588745, 713328, 20, '2017/06/12 12:30', 25, 120 ,150 , 4, 2, 1);
+INSERT INTO inventory.pallet VALUES(6333352, 532140, 20, '2017/06/12 12:30', 40, 320 ,450 , 5, 2, 1);
+
+
+INSERT INTO inventory.product VALUES(201534, 'Orage juice', 'Juices');
+INSERT INTO inventory.productsupplier  VALUES(201534, 'Dansk Super Market');
+INSERT INTO inventory.product VALUES(554783, 'Sprite', 'Juices');
+INSERT INTO inventory.productsupplier  VALUES(554783, 'Dansk Super Market');
+INSERT INTO inventory.product VALUES(687011, 'Coca-cola', 'Juices');
+INSERT INTO inventory.productsupplier  VALUES(687011, 'Dansk Super Market');
+INSERT INTO inventory.product VALUES(159664, 'Fanta', 'Juices');
+INSERT INTO inventory.productsupplier  VALUES(159664, 'Dansk Super Market');
+INSERT INTO inventory.product VALUES(723356, 'Dr. Papper', 'Juices');
+INSERT INTO inventory.productsupplier  VALUES(723356, 'Dansk Super Market');
+INSERT INTO inventory.pallet VALUES(3603314, 201534, 20, '2020/05/12 10:30', 9, 370 ,480 , 1, 3, 1);
+INSERT INTO inventory.pallet VALUES(8554771, 201534, 20, '2020/05/12 10:30', 6, 320 ,450 , 2, 3, 1);
+INSERT INTO inventory.pallet VALUES(9541237, 201534, 20, '2020/01/12 10:30', 6, 320 ,450 , 3, 3, 1);
+INSERT INTO inventory.pallet VALUES(9134587, 201534, 20, '2019/03/12 10:30', 6, 320 ,450 , 4, 3, 1);
+INSERT INTO inventory.pallet VALUES(8557764, 201534, 20, '2018/02/12 10:30', 6, 340 ,470 , 5, 3, 1);
+
+
+INSERT INTO inventory.product VALUES(333548, 'Green bean', 'Vegetables');
+INSERT INTO inventory.productsupplier VALUES(333548, 'Reitan');
+INSERT INTO inventory.product VALUES(258963, 'Garlic', 'Vegetables');
+INSERT INTO inventory.productsupplier VALUES(258963, 'Reitan');
+INSERT INTO inventory.product VALUES(741258, 'Lettuce', 'Vegetables');
+INSERT INTO inventory.productsupplier VALUES(741258, 'Reitan');
+INSERT INTO inventory.product VALUES(852147, 'Mushroom', 'Vegetables');
+INSERT INTO inventory.productsupplier VALUES(852147, 'Reitan');
+INSERT INTO inventory.product VALUES(963147, 'Pepper', 'Vegetables');
+INSERT INTO inventory.productsupplier VALUES(963147, 'Reitan');
+INSERT INTO inventory.product VALUES(836974, 'Tomato', 'Vegetables');
+INSERT INTO inventory.productsupplier VALUES(836974, 'Reitan');
+INSERT INTO inventory.pallet VALUES(7833265, 333548, 20 , '2016/12/12 10:30', 10, 180,240 , 1, 4, 1);
+INSERT INTO inventory.pallet VALUES(8546255, 258963, 20, '2016/12/12 10:30', 50, 200 ,250 , 2, 4, 1);
+INSERT INTO inventory.pallet VALUES(8886654, 741258, 20, '2016/12/12 10:30', 4, 180 , 240, 3, 4, 1);
+INSERT INTO inventory.pallet VALUES(7823690, 852147, 20, '2016/12/12 10:30', 5, 240 ,340 , 4, 4, 1);
+INSERT INTO inventory.pallet VALUES(1125540, 963147, 20, '2016/12/12 10:30', 9, 250 ,370 , 5, 4, 1);
+INSERT INTO inventory.pallet VALUES(2457741, 836974, 20, '2016/12/12 10:30', 20, 150 ,290 , 6, 4, 1);
+
+INSERT INTO inventory.supplier VALUES('Beauty Island', 99665544, 'Beauty@bb.dk', 'Vestgade 99', 8000);
+INSERT INTO inventory.product VALUES(445863, 'Shower gel', 'Personal care');
+INSERT INTO inventory.productsupplier VALUES(445863, 'Beauty Island');
+INSERT INTO inventory.product VALUES(668932, 'Deodorant', 'Personal care');
+INSERT INTO inventory.productsupplier VALUES(668932, 'Beauty Island');
+INSERT INTO inventory.product VALUES(858821, 'Shampoo', 'Personal care');
+INSERT INTO inventory.productsupplier VALUES(858821, 'Beauty Island');
+INSERT INTO inventory.product VALUES(256003, 'Conditioner', 'Personal care');
+INSERT INTO inventory.productsupplier VALUES(256003, 'Beauty Island');
+INSERT INTO inventory.product VALUES(475015, 'Hand cream', 'Personal care');
+INSERT INTO inventory.productsupplier VALUES(475015, 'Beauty Island');
+INSERT INTO inventory.pallet VALUES(3635546, 445863, 30, '2019/06/12 10:15', 6, 120 ,150 , 1, 1, 2);
+INSERT INTO inventory.pallet VALUES(6332999, 668932, 30, '2019/06/12 11:30', 6, 120 ,150 , 2, 1, 2);
+INSERT INTO inventory.pallet VALUES(5680444, 858821, 30, '2018/06/12 10:38', 6, 120 ,150 , 3, 1, 2);
+INSERT INTO inventory.pallet VALUES(568888744, 256003, 30, '2020/06/12 08:30', 6, 120 ,150 , 4, 1, 2);
+INSERT INTO inventory.pallet VALUES(568884264, 475015, 30, '2020/06/12 16:32', 6, 120 ,150 , 5, 1, 2);
+
+INSERT INTO inventory.pickers VALUES(1, 1906965252, 'Adam Anders','Kollegievaenget', '8700', '91656835', 'anders.a@gamil.com');
+INSERT INTO inventory.pickers VALUES(2, 2618935745, 'Jordan Klein','Amaliegade', '8800', '91656835', 'jordan_klein@gamil.com');
+INSERT INTO inventory.pickers VALUES(3, 1587524630, 'Michael Rich','Fussingsvej', '8700', '91656835', 'rich.m@gamil.com');
+INSERT INTO inventory.pickers VALUES(4, 1512792546, 'Anastasia Salma','Ostregade', '8800', '91656835', 'salma.Anastasia@gamil.com');
+INSERT INTO inventory.pickers VALUES(5, 1321996532, 'Richard Minisk','Borgergade', '8450', '91656835', 'richard.m@gamil.com');
+INSERT INTO inventory.pickers VALUES(6, 2106201207, 'Daniele Ruth','Saturnvej', '8450', '91656835', 'daniele45@gamil.com');
+INSERT INTO inventory.pickers VALUES(7, 0202201530, 'Camelia Aneliz','Meteorvej', '8800', '91656835', 'cami_aneliz@gamil.com');
+
+
+INSERT INTO inventory.customer  VALUES(100, 'Rema 1000', 'Osetergade 78', 8000, 99887744, 'Rema@rema.dk');
+INSERT INTO inventory.customer  VALUES(101, 'Bilka', 'Herningvej 55', 8700, 56856812, 'Bilka@mm.dk');
+INSERT INTO inventory.customer  VALUES(102, 'Netto', 'Den Rød plads 78', 7500, 85965896, 'Netto@nn.dk');
+INSERT INTO inventory.customer  VALUES(103, 'Lidl', 'Øtebbrogade 99', 7500, 56954465, 'Lidl@ld.dk');
